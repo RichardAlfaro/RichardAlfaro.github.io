@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Espresso Deprivation Log</title>
+    <link>https://richardalfaro.github.io/espresso-log</link>
+    <description>A field report from someone who is fine. Totally fine.</description>
+    <language>en</language>
+    <atom:link href="https://richardalfaro.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Day 1</title>
+      <link>https://richardalfaro.github.io/espresso-log</link>
+      <guid isPermaLink="false">espresso-log-day-1</guid>
+      <pubDate>Tue, 17 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        <p>No caffeine. None. Zero. The day happened anyway, which I found presumptuous.</p>
+        <p>At home there is a machine that knows exactly what I need. It does not ask questions. It does not offer alternatives. It produces 25ml of something that makes the morning make sense, and it does this without being asked twice.</p>
+        <p>That machine is not here.</p>
+        <p>I am.</p>
+        <p>We'll see how this goes.</p>
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>
