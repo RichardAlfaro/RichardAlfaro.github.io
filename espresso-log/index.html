@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Espresso Deprivation Log</title>
+  <link rel="alternate" type="application/rss+xml" title="The Espresso Deprivation Log" href="https://richardalfaro.github.io/feed.xml">
   <style>
     :root {
       --bg: #f9f7f4;
@@ -91,6 +92,63 @@
       margin-top: 2.5rem;
       padding-top: 1.5rem;
       border-top: 1px solid var(--rule);
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .rss-link {
+      font-style: normal;
+      font-size: 0.8rem;
+      text-decoration: none;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .rss-link:hover {
+      color: var(--accent);
+    }
+
+    .rss-icon {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      background: #f26522;
+      border-radius: 2px;
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .rss-icon::before,
+    .rss-icon::after {
+      content: '';
+      position: absolute;
+      background: #fff;
+      border-radius: 50%;
+    }
+
+    .rss-icon::before {
+      width: 3px;
+      height: 3px;
+      bottom: 2px;
+      left: 2px;
+    }
+
+    .rss-icon::after {
+      content: '';
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      border: 1.5px solid #fff;
+      border-radius: 50%;
+      background: transparent;
+      bottom: 2px;
+      left: 2px;
+      clip-path: inset(0 0 50% 50%);
     }
   </style>
 </head>
@@ -111,7 +169,11 @@
     </div>
 
     <footer>
-      More entries coming. Pray for me.
+      <span>More entries coming. Pray for me.</span>
+      <a class="rss-link" href="https://richardalfaro.github.io/feed.xml">
+        <span class="rss-icon" aria-hidden="true"></span>
+        RSS
+      </a>
     </footer>
   </main>
 </body>
