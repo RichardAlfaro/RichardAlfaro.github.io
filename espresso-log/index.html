@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Espresso Deprivation Log</title>
+  <style>
+    :root {
+      --bg: #f9f7f4;
+      --text: #1a1a1a;
+      --muted: #6b6560;
+      --rule: #d6d0c8;
+      --accent: #5c3d2e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.1rem;
+      line-height: 1.75;
+      padding: 2rem 1.25rem;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+      padding-bottom: 4rem;
+    }
+
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      font-weight: normal;
+      color: var(--accent);
+      letter-spacing: -0.01em;
+      margin-bottom: 0.4rem;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 0.95rem;
+    }
+
+    .entry {
+      margin-bottom: 2.5rem;
+    }
+
+    .entry-label {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .entry p {
+      margin-bottom: 1rem;
+    }
+
+    .entry p:last-child {
+      margin-bottom: 0;
+    }
+
+    .entry p.standalone {
+      margin-bottom: 0.25rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 2rem 0;
+    }
+
+    footer {
+      color: var(--muted);
+      font-style: italic;
+      font-size: 0.95rem;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--rule);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>☕ The Espresso Deprivation Log</h1>
+      <p class="subtitle">A field report from someone who is fine. Totally fine.</p>
+    </header>
+
+    <div class="entry">
+      <p class="entry-label">Day 1</p>
+      <p>No caffeine. None. Zero. The day happened anyway, which I found presumptuous.</p>
+      <p>At home there is a machine that knows exactly what I need. It does not ask questions. It does not offer alternatives. It produces 25ml of something that makes the morning make sense, and it does this without being asked twice.</p>
+      <p class="standalone">That machine is not here.</p>
+      <p class="standalone">I am.</p>
+      <p>We'll see how this goes.</p>
+    </div>
+
+    <footer>
+      More entries coming. Pray for me.
+    </footer>
+  </main>
+</body>
+</html>
