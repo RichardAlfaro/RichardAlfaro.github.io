@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Espresso Deprivation Log</title>
+    <title>Aloha, I Need Espresso</title>
     <link>https://richardalfaro.github.io/espresso-log</link>
-    <description>A field report from someone who is fine. Totally fine.</description>
+    <description>A daily dispatch from Hawaii, where everything is perfect except the coffee situation.</description>
     <language>en</language>
     <atom:link href="https://richardalfaro.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
